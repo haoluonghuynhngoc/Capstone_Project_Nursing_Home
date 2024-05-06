@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<RootNamespace>Nursing_Home.WebApi</RootNamespace>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\Application\Nursing-Home.Application\Nursing-Home.Application.csproj" />
+		<ProjectReference Include="..\..\Infrastructure\Nursing-Home.Infrastructure\Nursing-Home.Infrastructure.csproj" />
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<RootNamespace>Nursing_Home.Infrastructure</RootNamespace>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\Application\Nursing-Home.Application\Nursing-Home.Application.csproj" />
+		<ProjectReference Include="..\..\Shared\Nursing-Home.Utils\Nursing-Home.Utils.csproj" />
+	</ItemGroup>
+
+</Project>
